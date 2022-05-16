@@ -1,0 +1,194 @@
+body {
+  background-color: #5499C7;
+}
+
+h1 {
+  font: xx-large fantasy;
+  text-align: center;
+  text-decoration: overline double #F1C40F;
+  background: url("../imagenes/sintitulo.png") no-repeat center;
+  color: #C0392B;
+  padding: 8%;
+}
+
+.titulo {
+  font: x-large fantasy;
+  text-align: center;
+  text-decoration: overline double #F1C40F;
+  color:#D35400;
+  background: silver no-repeat center;
+  border: 3px #DC7633 solid;
+  width: 200px;
+  height: 30px;
+  margin: 0px auto;
+}
+.titulo:hover {
+  background-color: green;
+  color:white;
+  border: 3px red solid;
+}
+/* Titulo de contacto.html */
+.titulo-contacto {
+  font: x-large fantasy;
+  text-align: center;
+  text-decoration: overline double #F1C40F;
+  color:#D35400;
+  background: silver no-repeat center;
+  border: 3px #DC7633 solid;
+  width: 290px;
+  height: 30px;
+  margin: 0px auto;
+}
+
+.titulo3 {
+  font: large sans-serif;
+  color:#D35400;
+  text-decoration: underline;
+}
+.titulo3:hover {
+  color: black;
+  text-decoration: underline double #42A5F5;
+}
+
+p {
+  text-align: center;
+  color:black;
+  font:large sans-serif;
+  font-weight: bolder;
+}
+
+.imagen {
+  width: 400px;
+  height: 224px;
+  background: url("../imagenes/pozole.jpg") no-repeat;
+  background-size: cover;
+  margin: 0px auto;
+}
+
+.imagen:hover {
+  background-image: url("../imagenes/2.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+li {
+  font-size: medium;
+  color:black;
+}
+
+.video_ubicacion {
+  text-align: center;
+}
+
+header {
+  background-image: url("../imagenes/image.jpg");
+  border-top: 8px #FB8C00 ridge;
+  border-left: 8px #FB8C00 ridge;
+  border-right: 8px #FB8C00 ridge;
+}
+
+nav {
+  background-color: silver;
+  padding: 3px;
+  box-sizing: border-box;
+  border: 8px #FB8C00 ridge;
+}
+
+nav ul li {
+  margin-left: 1%;
+  display: inline;
+  border-left: 3px #FB8C00 ridge;
+  border-right: 3px #FB8C00 ridge;
+  font-family: cursive;
+}
+
+.nav:hover {
+  background-color: #F39C12;
+}
+
+section {
+  width: 75%;
+  float:left;
+  padding: 1%;
+  box-sizing: border-box;
+  background-color: #F6DDCC;
+  overflow: auto;
+  border-right: 8px #FB8C00 ridge;
+  border-left: 8px #FB8C00 ridge;
+  border-bottom: 8px #FB8C00 ridge;
+}
+
+aside {
+  width: 25%;
+  float: left;
+  padding: 1%;
+  box-sizing: border-box;
+  background-color: #EDBB99;
+  overflow: auto;
+  border-right: 8px #FB8C00 ridge;
+  border-bottom: 8px #FB8C00 ridge;
+}
+
+footer {
+  clear: both;
+  background-color: #85929E;
+  box-sizing: border-box;
+  padding: 1%;
+}
+.facebook:hover {
+  background-color: #0033FF;
+}
+.twitter:hover {
+  background-color: #2196F3;
+}
+.instagram:hover {
+  background-color: #F4511E ;
+}
+
+iframe {
+  width: 90%;
+  height: 95%;
+}
+
+.red {
+  width: 3%;
+  height: 3%;
+  margin: 0.7%;
+}
+
+.icon-wsp {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  right: 40px;
+  bottom: 40px;
+}
+
+
+/* Para contacto.html */
+label {
+  display: block;
+  font:large fantasy;
+  text-align: center;
+  color:#D35400;
+  text-decoration: overline double #F1C40F;
+}
+
+input {
+  display: block;
+  margin: 0px auto;
+  border: 1px black solid;
+}
+
+form {
+  background: silver;
+  width: 300px;
+  margin: 0px auto;
+  padding: 5%;
+  border: 5px #DC7633 ridge;
+}
+.imagenContacto {
+  display: block;
+  margin: 0px auto;
+  width: 83%;
+}
